@@ -3,7 +3,7 @@
         {
             "name": "values",
             "kind": "GroupingOrMeasure",
-            "displayName": "Values"
+            "displayName": "Order - Percent - Color"
         }
     ],
     "objects": { },

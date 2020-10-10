@@ -1,1 +1,25 @@
-{"visual":{"name":"progressBarMultiColor","displayName":"ProgressBarMultiColor","guid":"progressBarMultiColor2311ECEED1AC41DA8455E5C3A15B8BA6","visualClassName":"Visual","version":"1.0.0","description":"","supportUrl":"","gitHubUrl":""},"apiVersion":"2.6.0","author":{"name":"","email":""},"assets":{"icon":"assets/icon.png"},"externalJS":null,"style":"style/visual.less","capabilities":"capabilities.json","dependencies":null,"stringResources":[]}
+{
+	"visual": {
+		"name": "progressBarMultiColor",
+		"displayName": "Progress Bar Multicolor",
+		"guid": "progressBarMultiColor2311ECEED1AC41DA8455E5C3A15B8BA6",
+		"visualClassName": "Visual",
+		"version": "1.0.0",
+		"description": "Create progress bar",
+		"supportUrl": "https://checor.me",
+		"gitHubUrl": "https://github.com/checor/progress-bar-multicolor"
+	},
+	"apiVersion": "2.6.0",
+	"author": {
+		"name": "Sergio Urbina",
+		"email": "checor@gmail.com"
+	},
+	"assets": {
+		"icon": "assets/icon.png"
+	},
+	"externalJS": null,
+	"style": "style/visual.less",
+	"capabilities": "capabilities.json",
+	"dependencies": null,
+	"stringResources": []
+}
