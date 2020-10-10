@@ -35,14 +35,18 @@ export class Visual implements IVisual {
 
         if(options.dataViews && options.dataViews[0]){
             const dataView: DataView = options.dataViews[0];
+            this.settings = VisualSettings.parse(dataView) as VisualSettings;
             const data: any = dataView.table.rows;
             if (!data || data.length < 3){
                 this.clear();
                 return;
             }
             ReactProgressBar.update({
+                dates: data.map(x => x[0]),
                 widths: data.map(x => x[1]),
                 colors: data.map(x => x[2]),
+                showRange: this.settings.range.show,
+                rangeFontSize: this.settings.range.fontSize,
             });
         } else {
             this.clear();

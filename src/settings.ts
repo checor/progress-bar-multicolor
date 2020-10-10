@@ -3,11 +3,11 @@
 import { dataViewObjectsParser } from "powerbi-visuals-utils-dataviewutils";
 import DataViewObjectsParser = dataViewObjectsParser.DataViewObjectsParser;
 
-export class ProgressBarSettings {
-    public show: boolean = true;
-    public fontSize: number = 12;
+export class RangeSettings {
+    public show: boolean = false;
+    public fontSize: number = 14;
 }
 
 export class VisualSettings extends DataViewObjectsParser {
-    public circle: ProgressBarSettings = new ProgressBarSettings();
+    public range: RangeSettings = new RangeSettings();
 }

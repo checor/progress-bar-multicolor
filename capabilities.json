@@ -8,14 +8,14 @@
     ],
     "objects": {
         "range": {
-            "displayName": "Range",
+            "displayName": "Date range",
             "properties": {
                 "show": {
-                    "displayName": "Show range",
+                    "displayName": "My Property Switch",
                     "type": {"bool": true}
                 },
                 "fontSize": {
-                    "displayName": "Font Size",
+                    "displayName": "Text Size",
                     "type": {"formatting": {"fontSize": true}}
                 }
             }
