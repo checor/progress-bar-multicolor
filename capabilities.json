@@ -6,7 +6,21 @@
             "displayName": "Order - Percent - Color"
         }
     ],
-    "objects": { },
+    "objects": {
+        "range": {
+            "displayName": "Range",
+            "properties": {
+                "show": {
+                    "displayName": "Show range",
+                    "type": {"bool": true}
+                },
+                "fontSize": {
+                    "displayName": "Font Size",
+                    "type": {"formatting": {"fontSize": true}}
+                }
+            }
+        }
+    },
     "dataViewMappings": [
         {
             "table": {
